@@ -9,6 +9,11 @@ body {
 }
 
 .header {
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url('../img/bg.jpg') no-repeat center top / cover;
+}
+
+.navbar {
     display: flex;
     align-items: center;
     padding-top: 30px;
@@ -43,4 +48,40 @@ body {
     height: 33px;
     border-radius: 50%;
     margin-left: 11px;
+}
+
+.film {
+    margin-top: 60px;
+    color: #fff;
+}
+
+.film-info {
+    max-width: 650px;
+}
+
+.film-title-small {
+    opacity: 0.5;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.film-title {
+    margin-top: 11px;
+    margin-bottom: 23px;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.film-description {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.film {
+    display: flex;
+    align-items: center;
+}
+
+.film-trailer {
+    margin: auto;
 }
